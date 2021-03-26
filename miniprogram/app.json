@@ -1,0 +1,39 @@
+{
+  "pages": [
+    
+    "pages/show/show",
+    "pages/edit/edit",
+   
+    "pages/check/check"
+    
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Deadline速查",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#222",
+    "backgroundColor": "#f8f9fb",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/show/show",
+        "text": "查看",
+        "iconPath": "assets/todos.png",
+        "selectedIconPath": "assets/todos-active.png"
+      },
+      {
+        "pagePath": "pages/edit/edit",
+        "text": "编辑",
+        "iconPath": "assets/logs.png",
+        "selectedIconPath": "assets/logs-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+
+}

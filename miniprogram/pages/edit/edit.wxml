@@ -1,0 +1,55 @@
+<text class="container title">添加一项</text>
+
+<form bindsubmit="btnSub">
+  <input name="subject" placeholder="科目"></input>
+  <input name="detail" placeholder="详情"></input>
+  <view class="btn_container">
+    <input name="content" placeholder="内容"></input>
+    <button class="btn_addpic" bindtap="add_pics">添加图片</button>
+  </view>
+  <view class="section">
+  <picker mode="date" value="{{date}}" start="2021-03-23" end="2023-09-01" bindchange="bindDateChange" name="add_data">
+    <view class="picker">
+      <!-- <input name="deadline" placeholder="期限" value="{{date}}"></input> -->
+      <text class="select_data_text">期限  {{date}}</text>
+    </view>
+  </picker>
+  </view>
+  <view class="btn_container">
+    <button class='btn1' form-type="submit">增加</button>
+    <button class='btn2' form-type="reset">重置</button>
+  </view>
+</form>
+
+<text class="container title">删除一项</text>
+
+<form bindsubmit="btnSub_del">
+  
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{face_list}}" name="data_del">
+    <view class="picker">
+      <text class="select_data_text">选择某项  {{face_list[index]}}</text>
+    </view>
+  </picker>
+</view>
+  <view class="btn_container">
+    <button class='btn1' form-type="submit">删除</button>
+    <button class='btn2' form-type="reset">重置</button>
+  </view>
+</form>
+
+<form bindsubmit="btnSub_del_date">
+  <view class="section">
+  <picker mode="date" value="{{date2}}" start="2021-03-23" end="2023-09-01" bindchange="bindDateChange2" name="del_data">
+    <view class="picker">
+      <text class="select_data_text">期限  {{date2}}</text>
+      
+    </view>
+  </picker>
+  </view>
+  <view class="btn_container">
+    <button class='btn1' form-type="submit">删除</button>
+    <button class='btn2' form-type="reset">重置</button>
+  </view>
+</form>
+

@@ -1,0 +1,3 @@
+<button type="primary" bindtap="updateData">更新一条记录</button>
+------
+<button type="primary" bindtap="deleteData">删除一条记录</button>

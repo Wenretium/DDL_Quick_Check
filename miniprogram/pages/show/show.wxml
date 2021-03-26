@@ -1,0 +1,23 @@
+<!--pages/show/show.wxml-->
+<view class="li toggle" bindtap='changeToggle'>
+    <view>科目</view>
+    <view>详情</view>
+    <view>日期</view>
+  </view>
+
+
+<view wx:for="{{ddl}}" wx:key="key" wx:for-index="idx">
+  <view class="li toggle" data-index='{{idx}}' bindtap='changeToggle'>
+    <view>{{item.subject}}</view>
+    <view>{{item.detail}}</view>
+    <view>{{item.deadline}}</view>
+  </view>
+
+  <view hidden='{{isShow[idx]}}' class="li-wrap">
+    <view class='li content'>
+      <view>{{item.content}}</view>
+      <image mode='widthFix' style="width: 300px; height: 300px; margin:10px;" src="{{item.img}}"></image>
+    </view>
+  </view>
+  
+</view>

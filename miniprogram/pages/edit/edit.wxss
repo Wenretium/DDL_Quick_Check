@@ -1,0 +1,71 @@
+input{
+  border:1px solid #888;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+
+.btn1 {
+  width: 40%;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: 40rpx;
+  background-color: rgb(166, 208, 228);
+  color: white;
+  float: left;
+}
+
+.btn2 {
+  width: 40%;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-right: 40rpx;
+  background-color: rgb(212, 165, 165);
+  color: white;
+  float: right;
+}
+
+.btn_container{
+  display: flex;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  font-size: 50rpx;
+  color: black;
+  text-align: center;
+}
+
+.btn_addpic{
+  width: 200rpx;
+  height: 60rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-right: 40rpx;
+  background-color: rgba(240, 249, 250, 0.966);
+  border:1px solid #888;
+  color: black;
+  float: right;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select_data_text{
+  width: 500rpx;
+  border:1px solid #888;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  color: #888;
+}
+

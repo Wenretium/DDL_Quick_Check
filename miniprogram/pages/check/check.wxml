@@ -1,0 +1,6 @@
+<text class="container title">请验证编辑权限</text>
+<form  bindsubmit="submit_pin">
+  <input name="pin" placeholder="请输入密码" ></input>
+  <button class='btn3' form-type="submit">验证</button>
+  <button class='btn3' bindtap="returnShow">返回查看页面</button>
+</form>
