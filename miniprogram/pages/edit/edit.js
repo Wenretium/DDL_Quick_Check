@@ -84,6 +84,10 @@ Page({
         icon:'success'
       })
     })
+    //重置数据
+    this.setData({
+      bigImg:''
+      })
   },
 
   //查询记录
