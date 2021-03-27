@@ -6,7 +6,7 @@ Page({
    */
   data: {
     mypin:0,
-    PIN:222,
+    PIN:****,
 
   },
 
