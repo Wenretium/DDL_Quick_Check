@@ -1,6 +1,6 @@
 # Deadline速查
 
-作者:Wenretium
+作者：Wenretium
 
 版本：1.2.0
 
