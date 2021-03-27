@@ -10,7 +10,7 @@
 本项目为班级管理助手--Deadline速查，通过班委的实时整理，同学们可通过该平台方便查看ddl。
 
 ## 小程序体验
-![](https://github.com/Wenretium/DDL_Quick_Check/blob/1.1.0/README_imgs/ddl%E9%80%9F%E6%9F%A5.jpg)
+![](https://github.com/Wenretium/DDL_Quick_Check/blob/main/README_imgs/ddl%E9%80%9F%E6%9F%A5.jpg)
 
 ## 已实现功能
 
